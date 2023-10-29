@@ -1,10 +1,10 @@
 ### Käyttötapauskuvaus
 
 1. **Äänestysten selaus:**
- * Käyttäjät: Käyttäjä ja ylläpitäjä
- * Laukaisija: Käyttäjä ja ylläpitäjä
- * Esiehto: Lisätty äänestys
- * Käyttötapauksen kulku: Valittu käyttäjä tai ylläpitäjä, lisätty äänestys
+  * Käyttäjät: Käyttäjä ja ylläpitäjä
+  * Laukaisija: Käyttäjä ja ylläpitäjä
+  * Esiehto: Lisätty äänestys
+  * Käyttötapauksen kulku: Valittu käyttäjä tai ylläpitäjä, lisätty äänestys
 
 2. **Äänestyksen valinta:**
  * Käyttäjät: Käyttäjä
