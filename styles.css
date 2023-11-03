@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dadcdc;
+    margin: 0;
+}
+
+.header {
+    background: linear-gradient(to top, #2c81ba, #113546);
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.user-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px;
+}
+
+#moderator-section, #poll-details {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#poll-description {
+    font-style: italic;
+}
+
+#poll-list {
+    text-align: center;
+    list-style-position: inside;
+}
+
+#poll-list li {
+    margin-bottom: 10px;
+}
+
+.all-buttons {
+    width: 105px;
+    height: 40px;
+    background: linear-gradient(to top, #3182b8, #286786);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.all-buttons:hover {
+    background: linear-gradient(to top, #2c81ba, #113546);
+}
+
+#normal-role, #moderator-role {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#login-username, #login-password {
+    margin-bottom: 12px;
+}

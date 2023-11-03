@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Voting App</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Voting Application</h1>
+    </div>    
+    <div class="container">
+        <div id="registration-section">
+            <h2>Registration</h2>
+            <input type="text" id="registration-username" placeholder="Username">
+            <input type="password" id="registration-password" placeholder="Password"><br>
+            <label for="normal-role">Normal User</label>
+            <input type="radio" id="normal-role" name="role" value="Normal User" checked>
+            <label for="moderator-role">Moderator</label>
+            <input type="radio" id="moderator-role" name="role" value="Moderator"><br>
+            <button id="register-button" class="all-buttons">Register</button>
+        </div>
+        <div id="login-section">
+            <h2>Login</h2>
+            <input type="text" id="login-username" placeholder="Username">
+            <input type="password" id="login-password" placeholder="Password"><br>
+            <button id="login-button" class="all-buttons">Login</button>
+        </div>
+        <div id="moderator-section" class="hidden">
+            <h2>Moderator Panel</h2>
+            <button id="create-poll" class="all-buttons">Create Poll</button>
+            <button id="delete-poll" class="all-buttons">Delete Poll</button>
+        </div>       
+        <div id="main-section" class="hidden">
+            <h2>Polls</h2>
+            <ol id="poll-list">
+            </ol>
+        </div>
+        <div id="poll-details" class="hidden">
+            <h2>Poll Details</h2>
+            <p id="poll-description"></p>
+            <div class="vote-buttons">
+                <button id="vote-for" class="all-buttons">Vote For</button>
+                <button id="vote-against" class="all-buttons">Vote Against</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
