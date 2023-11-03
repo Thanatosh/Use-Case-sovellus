@@ -1,5 +1,15 @@
 ## Käyttötapauskuvaus
 
+* **Rekisteröityminen:**
+  * Käyttäjät: Käyttäjä ja ylläpitäjä
+  * Jälkiehto: Käyttäjätunnus ja salasana tallennettu
+  * Käyttötapauksen kulku: Valittu nimi ja salasana, tiedot tallennettu muistiin
+
+* **Sisään kirjautuminen:**
+  * Käyttäjät: Käyttäjä ja ylläpitäjä
+  * Esiehto: Onnistunut rekisteröityminen
+  * Käyttötapauksen kulku: Nimi ja salasana annettu, tietojen tarkistus muistista
+
 * **Äänestysten selaus:**
   * Käyttäjät: Käyttäjä ja ylläpitäjä
   * Laukaisija: Käyttäjä ja ylläpitäjä
